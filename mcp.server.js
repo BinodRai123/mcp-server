@@ -11,8 +11,7 @@ const server = new McpServer({
 });
 
 // Add an addition tool
-server.registerTool(
-    'add',
+server.registerTool('add',
     {
         title: 'Addition Tool',
         description: 'Add two numbers',
